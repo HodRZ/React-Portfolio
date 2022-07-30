@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Introduction to React and Components",
+        "url": "https://hodrz.github.io/reading-notes/301/class01.html",
+        "description": "You can think of component-based architecture as deviding the code into reusable chunks, Components.this helps in dividing..."
+    },
+    {
+        "title": "State, Props, and the Component Lifecycle",
+        "url": "https://hodrz.github.io/reading-notes/301/class02.html",
+        "description": "Props and states are two ways to handle data inside a React App; data and its management data is an important factor in..."
+    },
+    {
+        "title": "Passing Functions as Props",
+        "url": "https://hodrz.github.io/reading-notes/301/class03.html",
+        "description": "In Javascript, map() is used to itterate over an array and transform it, and this works almost the same way in..."
+    },
+    {
+        "title": "React and Forms",
+        "url": "https://hodrz.github.io/reading-notes/301/class04.html",
+        "description": "Form elements interact with React in an interesting way; React focuses on state management for each..."
+    }
+]
