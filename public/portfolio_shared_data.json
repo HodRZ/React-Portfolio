@@ -2,18 +2,18 @@
   "basic_info": {
     "name": "Hodaifa Zawahreh",
     "titles": [
-      "Software Developer"
+      "Full Stack Web Developer with a major in Architecture and a background in Operations. Skilled in research, problem solving, and critical thinking."
     ],
     "social": [
       {
         "name": "github",
-        "url": "https://github.com",
+        "url": "https://github.com/HodRZ",
         "class": "fab fa-github"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "url": "https://www.linkedin.com/in/hodaifa-zawahreh/",
+        "class": "fab fa-linkedin"
       }
     ],
     "image": "myProfile.jpg"
