@@ -16,7 +16,7 @@ class Blog extends Component {
         const items = []
         for (let item of this.state.blogData) {
             items.push(
-                <LinkContainer to={{ pathname: "https://google.com" }} target="_blank">
+                <LinkContainer to={item.url} target="_blank">
                     <Card text="light" bg="dark" style={{ width: '18rem' }}>
                         <Card.Body>
                             <Card.Title>{item.title}</Card.Title>
