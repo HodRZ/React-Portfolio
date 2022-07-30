@@ -55,6 +55,15 @@ header .nav {
 
 }
 
+.blogCards {
+	background-color: #e9d5a1;
+	display: grid;
+}
+
+.cardsHeading {
+	justify-self: center;
+}
+
 .nav-item>a {
 	color: #f1faee !important;
 }
