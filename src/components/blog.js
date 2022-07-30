@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { LinkContainer } from "react-router-bootstrap";
+// import { LinkContainer } from "react-router-bootstrap";
 import blog from "../blog.json"
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, Row } from "react-bootstrap";
 // import { Route } from 'react-router-dom';
 
 class Blog extends Component {
@@ -16,17 +16,16 @@ class Blog extends Component {
         const items = []
         for (let item of this.state.blogData) {
             items.push(
-                <LinkContainer to={item.url} target="_blank">
-                    <Card text="light" bg="dark" style={{ width: '18rem' }}>
-                        <Card.Body>
-                            <Card.Title>{item.title}</Card.Title>
-                            <Card.Text>
-                                {item.description}
-                            </Card.Text>
-                            <Button href={item.url} variant="light">Read more</Button>{' '}
-                        </Card.Body>
-                    </Card>
-                </LinkContainer>
+                <Card text="light" bg="dark" style={{ width: '20rem' }}>
+                    <Card.Body>
+                        <Card.Title>{item.title}</Card.Title>
+                        <Card.Text>
+                            {item.description}
+                        </Card.Text>
+                        <Button href={item.url} variant="light">Read more</Button>{' '}
+                    </Card.Body>
+                </Card>
+
 
             )
         } return items
@@ -34,21 +33,18 @@ class Blog extends Component {
 
     render() {
         return (
-            < div >
-                <h2>a journal to document the journey of learning web-dev</h2>
-                <div>
+            < div className="blogCards" >
+                <h2 className='cardsHeading'>a journal to document the journey of learning web-dev</h2>
+                <Row className="g-4">
                     {
                         this.renderedList()
 
                     }
-                </div>
-            </div >
+                </Row>
+            </div>
+
         );
     }
 }
 
 export default Blog;
-
-// <LinkContainer to="/">
-//               <Nav.Link href="/">Home</Nav.Link>
-//             </LinkContainer>
